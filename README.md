@@ -8,7 +8,7 @@ Stores the following packages:
 
 ## Installing Packages
 
-Run the following commands once:
+Run the following commands *once*:
 
 ```sh
 curl -s --compressed "https://craftablescience.info/ppa/debian/KEY.gpg" | gpg --dearmor | sudo tee "/etc/apt/trusted.gpg.d/craftablescience.gpg" > /dev/null
