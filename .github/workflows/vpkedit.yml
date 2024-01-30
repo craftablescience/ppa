@@ -16,9 +16,6 @@ env:
 jobs:
   vpkedit:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: cmd
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
