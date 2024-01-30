@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Tue, 30 Jan 2024 22:56:05 +0000
+MD5Sum:
+ 8b26b8aeb0c2792afa2679c84d2125d6              551 Packages
+ a0c1e663cdfd148640808b727e9bfee4              390 Packages.gz
+ d974e0e40cb009b51793a54a1ea1c07c               38 Release
+SHA1:
+ 8dfb1795c251dfd4745ef358badce4d772bdeae6              551 Packages
+ 60ce7c49e74b6448fe84631e3475955f55b9fedb              390 Packages.gz
+ ff67608571d59570e95e84eaeb1ad7b1b84637f8               38 Release
+SHA256:
+ 1b02986db2bb7df28b91f9e44027ee7e762580707ee68e9b4197ffe216ec3e81              551 Packages
+ 650cdf25d1bb37dde2b5c3949b3c2e2aeb4f09e83995a2ca185385196d7fdd93              390 Packages.gz
+ 79f607dc8798e1e1f13a670ce6401801ff9ffc518a176ac2d19b396d1288b89f               38 Release
+SHA512:
+ 5b87483ce557291a8ed4f7dccf5c2cc14d55efab2626c983e687dfba5f0cfec7765cc3833451cbb4d41e124156195786719bd83022c1e8205af4fe828795828f              551 Packages
+ 1456e88c4e6106bae9ca4017fe2c11369ae799c5c6826fe0d48ba352691cfbb2a2e7edc3665636f60897bb1bfdd2994f71999970c2d447a3ccb4553f49a64d1e              390 Packages.gz
+ e95c598f497f720f4a9e8a0fc09da037991a4770fa0adaa8e25832c25dc6d1b668d2aa888f463ca0ea2462154640d8e27ca0581363506fb8beee09032ccb889a               38 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQJMBAEBCgA2FiEE2QyI0ETxvDG4zczUazmSfNo+/wsFAmW5foUYHGxhdXJhbGV3
+aXNkZXZAZ21haWwuY29tAAoJEGs5knzaPv8LBJgQAISd324/pgmV5Toc2C5cnj95
+gSifJbAv6gtI5QG0Xi1sVtB6FO4Aq7478QDPpznm9QEJ/Q4Qzc61CZqY2uB+kw6J
+DWjmnaIjrdX5jl/C5KyXynCjtXX+DorUqIuqr/2QmCHaA1XndEhCW8+acKzmcTzk
+OyPlTTOWQI/s+//Q4CvxcvLtly5k8mKUGJZFoNP+HJqbYCn2ZA2v+Lu8RWwXICD5
+h7RCNe/G8g2VXhGR7JTb7JmWdoxp5VULl0mL6WlMD/c1RNyktcDgy6BgLzEor27H
+vjsu7hHMQnDHPBD9B+x0tUFiKMQVfUmuyQsNNh1af1Z/T7iJen79KoM/M9EL/FHu
+Axljx1XbvBzZ9PCQl2e7Uae1dy+PPWVXnjoFQJCY21bUlFx9//5ddgegT3xZKYcz
+IVF2MyDaoGa93oXnQeJAvcnymkFabed1fM0vF2q/EHDTtxq4Q0ivrHpliXzvzp74
+aFhg0O4p/Siyex+6WQafKvwqkxfmzDqgBV5T7Q0bgUvYB6Pk+3MexqPj4U187edH
+sEY6vnJS4VSpLIAZTJqdIC8M/lyywUh0AfqcQNlLdGg/T/tkUY0/B9w29HmK9IYr
+NFrm0gwk/3eY1GuvfDDZ7wXvLMq1rb2symPfJV5kgWSDaahZVCWr4/uI8hR5PM5h
+bYSoey/gETDvagLuCbZT
+=+wns
+-----END PGP SIGNATURE-----
