@@ -254,3 +254,19 @@ Homepage: https://github.com/craftablescience/VPKEdit
 Description: A tool to read, preview, and write to VPK files.
  A tool to read, preview, and write to VPK files.
 
+Package: vpkedit
+Version: 4.0.0
+Architecture: amd64
+Maintainer: craftablescience <lauralewisdev@gmail.com>
+Installed-Size: 68124
+Filename: ./package-VPKEdit_4.0.0_amd64.deb
+Size: 27742984
+MD5sum: 1afbc0ee5b9556d5dc1770d85f813742
+SHA1: 43653e4ba5c43c0c0664a7c8e95b29a3632988ce
+SHA256: e3e73fef373147deba56857b64e2dfacf9247108ea8732197d45b5f224379ad4
+Section: devel
+Priority: optional
+Homepage: https://github.com/craftablescience/VPKEdit
+Description: A tool to read, preview, and write to VPK files.
+ A tool to read, preview, and write to VPK files.
+
