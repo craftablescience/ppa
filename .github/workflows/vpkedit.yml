@@ -1,4 +1,4 @@
-name: Publish New VPKEdit Version
+name: Publish VPKEdit
 on:
   workflow_dispatch:
     inputs:
