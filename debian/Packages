@@ -290,12 +290,12 @@ Package: vpkedit
 Version: 4.1.0
 Architecture: amd64
 Maintainer: craftablescience <lauralewisdev@gmail.com>
-Installed-Size: 69635
+Installed-Size: 68933
 Filename: ./package-VPKEdit_4.1.0_amd64.deb
-Size: 28372446
-MD5sum: 4fda6d1418ad1840df47e357d7a41a47
-SHA1: 5214b2e29947508dbeeec5f262a5eb5c2467cc4b
-SHA256: 831d0964d5dfd1409b52955da83cf10e33f0003ef1736ab68b4ae0d078448911
+Size: 28075452
+MD5sum: 69e1886f9a778c512cf6869fd1e6078b
+SHA1: ca5c693e8ab6c85b06cb2bfeea8ce1fe4b03881f
+SHA256: 412ec41c0333779af9c26f323da0e3214575e0ab066089fb90efe9dc71102828
 Section: devel
 Priority: optional
 Homepage: https://github.com/craftablescience/VPKEdit
