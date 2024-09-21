@@ -4,7 +4,8 @@ Repository for my installable software for Debian-based Linux distros.
 
 Stores the following packages:
 
-- [VPKEdit](https://github.com/craftablescience/VPKEdit)
+- [vpkedit](https://github.com/craftablescience/VPKEdit)
+- [vtf-thumbnailer](https://github.com/craftablescience/vtf-thumbnailer)
 
 ## Installing Packages
 
