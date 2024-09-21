@@ -1,0 +1,58 @@
+name: Publish VTF Thumbnailer
+on:
+  workflow_dispatch:
+    inputs:
+      VERSION:
+        description: 'Version'
+        default: '1.2.3'
+        required: true
+        type: string
+
+env:
+  # https://github.com/craftablescience/vtf-thumbnailer/releases/download/TAG/VTF-Thumbnailer-VERSION-Linux.deb
+  DOWNLOAD_REPO_NAME: craftablescience/vtf-thumbnailer
+  DOWNLOAD_FILENAME_LINUX: VTF-Thumbnailer-${{inputs.VERSION}}-Linux.deb
+
+jobs:
+  vtf-thumbnailer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install Packages
+        run: |
+          sudo apt install -y apt-utils dpkg-dev gnupg
+
+      - name: Import GPG Key
+        uses: crazy-max/ghaction-import-gpg@v6
+        with:
+          gpg_private_key: ${{secrets.GPG_PRIVATE_KEY}}
+          passphrase: ''
+
+      - name: Download Release
+        run: |
+          curl -L "https://github.com/${{env.DOWNLOAD_REPO_NAME}}/releases/download/v${{inputs.VERSION}}/${{env.DOWNLOAD_FILENAME_LINUX}}" -o "${{github.workspace}}/debian/package-vtf-thumbnailer_${{inputs.VERSION}}_amd64.deb"
+
+      - name: Create Packages Metadata
+        working-directory: '${{github.workspace}}/debian'
+        run: |
+          # Packages & Packages.gz
+          dpkg-scanpackages --multiversion . > Packages
+          gzip -k -f Packages
+      
+          # Release & Release.gpg & InRelease
+          apt-ftparchive release . > Release
+          gpg --default-key "lauralewisdev@gmail.com" -abs -o - Release > Release.gpg
+          gpg --default-key "lauralewisdev@gmail.com" --clearsign -o - Release > InRelease
+
+      - name: Push Changes
+        run: |
+          git status
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "vtf-thumbnailer: v${{inputs.VERSION}}"
+          git push
