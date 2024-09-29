@@ -5,10 +5,10 @@ Maintainer: craftablescience <lauralewisdev@gmail.com>
 Installed-Size: 71142
 Depends: libxcb-cursor0
 Filename: ./package-VPKEdit_4.3.0_amd64.deb
-Size: 28094046
-MD5sum: 08145878ededc24e3761014915607e80
-SHA1: 063d411875b943e1692bc001a7feded019f53588
-SHA256: ff68e57089e384389259a6cf75b68a9203bc6d74c3b52768b2a78437de2ef200
+Size: 28093078
+MD5sum: e0465755f21d00c2a04c1e48a3447c46
+SHA1: 22f27ec1eb13530b85c190fb6c2bf5ca27fc3079
+SHA256: 987a3e7daeddf7cf4de257ff62efcb6273a2219b088903ff9d4acf7b2b350258
 Section: devel
 Priority: optional
 Homepage: https://github.com/craftablescience/VPKEdit
