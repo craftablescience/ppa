@@ -1,0 +1,16 @@
+Package: vtf-thumbnailer
+Version: 0.1.0
+Architecture: amd64
+Maintainer: craftablescience <lauralewisdev@gmail.com>
+Installed-Size: 2238
+Filename: ./package-vtf-thumbnailer_0.1.0_amd64.deb
+Size: 838274
+MD5sum: e3f8aa03b8437d41d02a79666ca695b3
+SHA1: f6436cbdd9fd6905dd86a83fc5f346336f541793
+SHA256: 3b14eb35778c026eeea761efe214d77bbcc2be0e66f993a17573aba11a84645c
+Section: devel
+Priority: optional
+Homepage: https://github.com/craftablescience/vtf-thumbnailer
+Description: Preview VTF files in your file explorer of choice.
+ Preview VTF files in your file explorer of choice.
+
