@@ -9,9 +9,10 @@ on:
         type: string
 
 env:
-  # https://github.com/craftablescience/vtf-thumbnailer/releases/download/TAG/VTF-Thumbnailer-VERSION-Linux.deb
+  # https://github.com/craftablescience/vtf-thumbnailer/releases/download/TAG/VTF-Thumbnailer-VERSION-PLATFORM.deb
   DOWNLOAD_REPO_NAME: craftablescience/vtf-thumbnailer
   DOWNLOAD_FILENAME_LINUX: VTF-Thumbnailer-${{inputs.VERSION}}-Linux.deb
+  DOWNLOAD_FILENAME_KDE5: VTF-Thumbnailer-${{inputs.VERSION}}-KDE5.deb
 
 jobs:
   vtf-thumbnailer:
@@ -35,6 +36,7 @@ jobs:
       - name: Download Release
         run: |
           curl -L "https://github.com/${{env.DOWNLOAD_REPO_NAME}}/releases/download/v${{inputs.VERSION}}/${{env.DOWNLOAD_FILENAME_LINUX}}" -o "${{github.workspace}}/debian/package-vtf-thumbnailer_${{inputs.VERSION}}_amd64.deb"
+          curl -L "https://github.com/${{env.DOWNLOAD_REPO_NAME}}/releases/download/v${{inputs.VERSION}}/${{env.DOWNLOAD_FILENAME_KDE5}}" -o "${{github.workspace}}/debian/package-vtf-thumbnailer-kde5_${{inputs.VERSION}}_amd64.deb"
 
       - name: Create Packages Metadata
         working-directory: '${{github.workspace}}/debian'
