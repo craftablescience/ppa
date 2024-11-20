@@ -6,6 +6,7 @@ Stores the following packages:
 
 - [vpkedit](https://github.com/craftablescience/VPKEdit)
 - [vtf-thumbnailer](https://github.com/craftablescience/vtf-thumbnailer)
+- [vtf-thumbnailer-kde5](https://github.com/craftablescience/vtf-thumbnailer)
 
 ## Installing Packages
 
