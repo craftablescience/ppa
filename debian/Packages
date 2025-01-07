@@ -66,6 +66,23 @@ Homepage: https://github.com/craftablescience/VPKEdit
 Description: A CLI/GUI tool to create, read, and write several pack file formats.
  A CLI/GUI tool to create, read, and write several pack file formats.
 
+Package: vpkedit
+Version: 4.4.0
+Architecture: amd64
+Maintainer: craftablescience <lauralewisdev@gmail.com>
+Installed-Size: 76189
+Depends: libxcb-cursor0
+Filename: ./package-VPKEdit_4.4.0_amd64.deb
+Size: 29231748
+MD5sum: b42a521575ae9e8610dc5db703fe2452
+SHA1: 990abb5ed38b7b71303f8eb2f4e9f4026b9d884a
+SHA256: d4641f005632cc0d48d14d41f78e8f31e56fa478ee3b62d1494dc61d4603acf2
+Section: devel
+Priority: optional
+Homepage: https://github.com/craftablescience/VPKEdit
+Description: A CLI/GUI tool to create, read, and write several pack file formats.
+ A CLI/GUI tool to create, read, and write several pack file formats.
+
 Package: vtf-thumbnailer
 Version: 0.1.0
 Architecture: amd64
