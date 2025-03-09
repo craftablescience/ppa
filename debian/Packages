@@ -1,3 +1,19 @@
+Package: maretf
+Version: 0.3.5
+Architecture: amd64
+Maintainer: craftablescience <lauralewisdev@gmail.com>
+Installed-Size: 3337
+Filename: ./package-MareTF_0.3.5_amd64.deb
+Size: 1336770
+MD5sum: dabc9821cef40308474b429ad66f0862
+SHA1: 1c3088b8d5872e20062ad7d60f4e8608cf4a1fb6
+SHA256: d4b9fd7019ebf4256c5a38ddc4618759574e0a3a53830f586b595d7c090cfcca
+Section: devel
+Priority: optional
+Homepage: https://github.com/craftablescience/MareTF
+Description: A work in progress command-line utility to work with VTF files.
+ A work in progress command-line utility to work with VTF files.
+
 Package: vpkedit
 Version: 4.2.3
 Architecture: amd64
