@@ -12,12 +12,10 @@ Stores the following packages:
 
 ## Installing Packages
 
-Run the following commands *once*:
+Run the following command *once*:
 
 ```sh
-curl -s --compressed "https://craftablescience.info/ppa/debian/KEY.gpg" | gpg --dearmor | sudo tee "/etc/apt/trusted.gpg.d/craftablescience.gpg" > /dev/null
-sudo curl -s --compressed -o "/etc/apt/sources.list.d/craftablescience.list" "https://craftablescience.info/ppa/debian/craftablescience.list"
-sudo apt update
+bash <(wget -qO- https://raw.githubusercontent.com/craftablescience/ppa/refs/heads/main/_setup.sh)
 ```
 
 Packages stored in this repository will become accessible in `apt`, for example:
