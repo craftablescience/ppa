@@ -1,3 +1,19 @@
+Package: fontscelestiaredux
+Version: 1.55.0
+Architecture: amd64
+Maintainer: mattyhex <mattyhex@mattyhex.net>
+Installed-Size: 245
+Filename: ./package-fonts-celestia-redux_1.55.0_amd64.deb
+Size: 119744
+MD5sum: e173b7b8112921d9b198a31875257eff
+SHA1: d651f114bec8e2dc6c2f667ce7d159353cdbda27
+SHA256: 7f8f0aab358b1d2b3af4861d3c182e9c165a62e691e6b915eab0d223f981b505
+Section: devel
+Priority: optional
+Homepage: http://www.mattyhex.net/CMR
+Description: The Celestia Redux font family, repackaged for Debian and Debian-based distros.
+ The Celestia Redux font family, repackaged for Debian and Debian-based distros.
+
 Package: maretf
 Version: 0.3.5
 Architecture: amd64
