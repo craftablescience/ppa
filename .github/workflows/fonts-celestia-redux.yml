@@ -1,4 +1,4 @@
-name: Publish FontsCelestiaRedux
+name: Publish fonts-celestia-redux
 on:
   workflow_dispatch:
     inputs:
@@ -9,9 +9,9 @@ on:
         type: string
 
 env:
-  # https://github.com/craftablescience/fonts-celestia-redux/releases/download/TAG/FontsCelestiaRedux-VERSION-PLATFORM.deb
+  # https://github.com/craftablescience/fonts-celestia-redux/releases/download/TAG/fonts-celestia-redux-VERSION-PLATFORM.deb
   DOWNLOAD_REPO_NAME: craftablescience/fonts-celestia-redux
-  DOWNLOAD_FILENAME_LINUX: FontsCelestiaRedux-${{inputs.VERSION}}-Linux.deb
+  DOWNLOAD_FILENAME_LINUX: fonts-celestia-redux-${{inputs.VERSION}}-Linux.deb
 
 jobs:
   fonts-celestia-redux:
