@@ -12,7 +12,7 @@ Stores the following packages:
 
 ## Installing Packages
 
-Run the following command *once*:
+Run the following command *once* (or manually run the contents of the script [here](https://raw.githubusercontent.com/craftablescience/ppa/refs/heads/main/_setup.sh)):
 
 ```sh
 bash <(wget -qO- https://raw.githubusercontent.com/craftablescience/ppa/refs/heads/main/_setup.sh)
