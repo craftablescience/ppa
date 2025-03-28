@@ -4,6 +4,7 @@ Repository for my installable software for Debian-based Linux distros.
 
 Stores the following packages:
 
+- [fonts-celestia-redux](https://github.com/craftablescience/fonts-celestia-redux)
 - [maretf](https://github.com/craftablescience/MareTF)
 - [vpkedit](https://github.com/craftablescience/VPKEdit)
 - [vtf-thumbnailer](https://github.com/craftablescience/vtf-thumbnailer)
