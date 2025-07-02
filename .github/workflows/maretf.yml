@@ -9,9 +9,9 @@ on:
         type: string
 
 env:
-  # https://github.com/craftablescience/MareTF/releases/download/TAG/MareTF-Linux-Installer-gcc-Release.zip
+  # https://github.com/craftablescience/MareTF/releases/download/TAG/MareTF-Linux-DEB-Installer-gcc-Release.deb
   DOWNLOAD_REPO_NAME: craftablescience/MareTF
-  DOWNLOAD_FILENAME_LINUX: MareTF-Linux-Installer-gcc-Release.zip
+  DOWNLOAD_FILENAME_LINUX: MareTF-Linux-DEB-Installer-gcc-Release.deb
 
 jobs:
   maretf:
@@ -34,10 +34,8 @@ jobs:
 
       - name: Download Release
         run: |
-          curl -L "https://github.com/${{ env.DOWNLOAD_REPO_NAME }}/releases/download/v${{ inputs.VERSION }}/${{ env.DOWNLOAD_FILENAME_LINUX }}" -o __package__.zip
-          7z x __package__.zip
+          curl -L "https://github.com/${{ env.DOWNLOAD_REPO_NAME }}/releases/download/v${{ inputs.VERSION }}/${{ env.DOWNLOAD_FILENAME_LINUX }}" -o "MareTF-${{ inputs.VERSION }}-Linux.deb"
           mv "MareTF-${{ inputs.VERSION }}-Linux.deb" "${{ github.workspace }}/debian/package-MareTF_${{ inputs.VERSION }}_amd64.deb"
-          rm __package__.zip
 
       - name: Create Packages Metadata
         working-directory: '${{ github.workspace }}/debian'
