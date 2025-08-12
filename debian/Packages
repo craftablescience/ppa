@@ -78,6 +78,23 @@ Homepage: https://github.com/craftablescience/MareTF
 Description: A work in progress command-line utility to work with VTF files.
  A work in progress command-line utility to work with VTF files.
 
+Package: maretf
+Version: 0.7.1
+Architecture: amd64
+Maintainer: craftablescience <lauralewisdev@gmail.com>
+Installed-Size: 11135
+Depends: libxcb-cursor0, libqt6core6 (>= 6.4.2), libqt6gui6 (>= 6.4.2), libqt6widgets6 (>= 6.4.2)
+Filename: ./package-MareTF_0.7.1_amd64.deb
+Size: 6384848
+MD5sum: 58f9f777be52047a4dbbc76767aa7955
+SHA1: efe1e34f1e7753e0682f908724b4db25ebb81108
+SHA256: d18fe6d2177ca614f57db6568950cc012332bfbcbfe9579f8a3afbf0b12bebd8
+Section: devel
+Priority: optional
+Homepage: https://github.com/craftablescience/MareTF
+Description: A utility to create, edit, and display every type of VTF file ever made.
+ A utility to create, edit, and display every type of VTF file ever made.
+
 Package: vpkedit
 Version: 4.2.3
 Architecture: amd64
@@ -248,12 +265,12 @@ Package: vtf-thumbnailer
 Version: 0.2.0
 Architecture: amd64
 Maintainer: craftablescience <lauralewisdev@gmail.com>
-Installed-Size: 9100
-Filename: ./package-vtf-thumbnailer-kde5_0.2.0_amd64.deb
-Size: 3805610
-MD5sum: 67d2f77c480819fcb849bbc8372920c8
-SHA1: 5443300357ae4f8c4a6022d0e90933eef513601b
-SHA256: 487ba9c6736f13fe7f773cd05eb34408d7407fb2696a9f4c460b04d4de58d68a
+Installed-Size: 4357
+Filename: ./package-vtf-thumbnailer_0.2.0_amd64.deb
+Size: 1863656
+MD5sum: 7588460a68f91e335aa92d09dc3ef4ec
+SHA1: 161f13dc2ddda1fea0524d15348c427cb9aed0aa
+SHA256: 8d20c6ee3f5b82d65301680213aa5aa7a760cc19e936a9ea2d91cbb0328a9b48
 Section: devel
 Priority: optional
 Homepage: https://github.com/craftablescience/vtf-thumbnailer
@@ -264,12 +281,12 @@ Package: vtf-thumbnailer
 Version: 0.2.0
 Architecture: amd64
 Maintainer: craftablescience <lauralewisdev@gmail.com>
-Installed-Size: 4357
-Filename: ./package-vtf-thumbnailer_0.2.0_amd64.deb
-Size: 1863656
-MD5sum: 7588460a68f91e335aa92d09dc3ef4ec
-SHA1: 161f13dc2ddda1fea0524d15348c427cb9aed0aa
-SHA256: 8d20c6ee3f5b82d65301680213aa5aa7a760cc19e936a9ea2d91cbb0328a9b48
+Installed-Size: 9100
+Filename: ./package-vtf-thumbnailer-kde5_0.2.0_amd64.deb
+Size: 3805610
+MD5sum: 67d2f77c480819fcb849bbc8372920c8
+SHA1: 5443300357ae4f8c4a6022d0e90933eef513601b
+SHA256: 487ba9c6736f13fe7f773cd05eb34408d7407fb2696a9f4c460b04d4de58d68a
 Section: devel
 Priority: optional
 Homepage: https://github.com/craftablescience/vtf-thumbnailer
