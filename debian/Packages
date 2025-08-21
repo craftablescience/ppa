@@ -95,6 +95,23 @@ Homepage: https://github.com/craftablescience/MareTF
 Description: A utility to create, edit, and display every type of VTF file ever made.
  A utility to create, edit, and display every type of VTF file ever made.
 
+Package: maretf
+Version: 0.7.2
+Architecture: amd64
+Maintainer: craftablescience <lauralewisdev@gmail.com>
+Installed-Size: 14507
+Depends: libxcb-cursor0, libqt6core6 (>= 6.4.2), libqt6gui6 (>= 6.4.2), libqt6widgets6 (>= 6.4.2)
+Filename: ./package-MareTF_0.7.2_amd64.deb
+Size: 9846432
+MD5sum: 316c86c57ba3b2243b8ac91c0efce838
+SHA1: 7904f04ca811f8f50ac5c4e21d9d47d2dccdf010
+SHA256: e308226528e3bf366101450edac1ca77d33cc4575fe6c1c3b2aea8183c2ff900
+Section: devel
+Priority: optional
+Homepage: https://github.com/craftablescience/MareTF
+Description: A utility to create, edit, and display every type of VTF file ever made.
+ A utility to create, edit, and display every type of VTF file ever made.
+
 Package: vpkedit
 Version: 4.2.3
 Architecture: amd64
