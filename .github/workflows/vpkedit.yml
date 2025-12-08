@@ -9,9 +9,9 @@ on:
         type: string
 
 env:
-  # https://github.com/craftablescience/VPKEdit/releases/download/TAG/VPKEdit-Linux-Installer-gcc-Release.zip
+  # https://github.com/craftablescience/VPKEdit/releases/download/TAG/VPKEdit-Linux-Installer-DEB-gcc-Release.zip
   DOWNLOAD_REPO_NAME: craftablescience/VPKEdit
-  DOWNLOAD_FILENAME_LINUX: VPKEdit-Linux-Installer-gcc-Release.zip
+  DOWNLOAD_FILENAME_LINUX: VPKEdit-Linux-Installer-DEB-gcc-Release.zip
 
 jobs:
   vpkedit:
