@@ -410,6 +410,22 @@ Homepage: https://github.com/craftablescience/vtf-thumbnailer
 Description: Preview VTF files in your file explorer of choice.
  Preview VTF files in your file explorer of choice.
 
+Package: vtf-thumbnailer
+Version: 1.1.2
+Architecture: amd64
+Maintainer: craftablescience <lauralewisdev@gmail.com>
+Installed-Size: 4523
+Filename: ./package-vtf-thumbnailer_1.1.2_amd64.deb
+Size: 1973870
+MD5sum: 9e11703c5210f6d5a42165b3a1f8d2e8
+SHA1: 5d7f2e54708809c58d5af4ef84a7a92d38a7ab6a
+SHA256: 394166e782bcfb444c0088a650831e4169249528c3181bc464ce1c9c553f5596
+Section: devel
+Priority: optional
+Homepage: https://github.com/craftablescience/vtf-thumbnailer
+Description: Preview VTF files in your file explorer of choice.
+ Preview VTF files in your file explorer of choice.
+
 Package: vtf-thumbnailer-kde5
 Version: 0.1.1
 Architecture: amd64
@@ -484,6 +500,22 @@ Size: 3888314
 MD5sum: 627755c56ef1edcb5a799403b3006e91
 SHA1: 46151408e0d0e884775f6a00b78606ef8d0191f8
 SHA256: 45540935e4eb1f05669bd9ba5c404fc260094cc82ed1a3dac4ddbf8d2465d63c
+Section: devel
+Priority: optional
+Homepage: https://github.com/craftablescience/vtf-thumbnailer
+Description: Preview VTF files in your file explorer of choice.
+ Preview VTF files in your file explorer of choice.
+
+Package: vtf-thumbnailer-kde5
+Version: 1.1.2
+Architecture: amd64
+Maintainer: craftablescience <lauralewisdev@gmail.com>
+Installed-Size: 9468
+Filename: ./package-vtf-thumbnailer-kde5_1.1.2_amd64.deb
+Size: 4035388
+MD5sum: c3c79a99f7831ccebee0b781459ef5ef
+SHA1: 666997a767a9c6a0263b629ba349e546b868250a
+SHA256: d2537e6d4c29ba0de22b113b6b3257256bd14c06bfc5503ee2cd91288c0f0476
 Section: devel
 Priority: optional
 Homepage: https://github.com/craftablescience/vtf-thumbnailer
